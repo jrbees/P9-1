@@ -35,5 +35,12 @@ int main() {
     }
     printf("\n");
 
+    // Print all elements in reverse order
+    printf("Reversed order: ");
+    for (i = ARRAY_SIZE - 1; i >= 0; i--) {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+
     return 0;
 }
