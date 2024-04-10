@@ -26,5 +26,14 @@ int main() {
     }
     printf("\n");
 
+    // Print every even element
+    printf("Even values: ");
+    for (i = 0; i < ARRAY_SIZE; i++) {
+        if (array[i] % 2 == 0) {
+            printf("%d ", array[i]);
+        }
+    }
+    printf("\n");
+
     return 0;
 }
