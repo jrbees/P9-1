@@ -19,5 +19,12 @@ int main() {
     }
     printf("\n");
 
+    // Print every element at an even index
+    printf("Even indices: ");
+    for (i = 0; i < ARRAY_SIZE; i += 2) {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
+
     return 0;
 }
