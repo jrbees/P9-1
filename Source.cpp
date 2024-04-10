@@ -42,5 +42,8 @@ int main() {
     }
     printf("\n");
 
+    // Print only the first and last element
+    printf("First and last: %d %d\n", array[0], array[ARRAY_SIZE - 1]);
+
     return 0;
 }
